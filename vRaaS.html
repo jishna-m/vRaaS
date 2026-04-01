@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vRaaS</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <studioAI-fullchatbot></studioAI-fullchatbot>
+    <script type="module">
+        import Chatbot from "https://cdn.jsdelivr.net/npm/studioAI-embed/dist/web.js"
+        Chatbot.initFull({
+            chatflowid: "df37ab56-b3fa-48dd-a3db-8630013e2ce7",
+            apiHost: "https://inprj-srrd01",
+        })
+    </script>
+</body>
+</html>
